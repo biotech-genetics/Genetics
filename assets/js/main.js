@@ -321,9 +321,17 @@ document.addEventListener('DOMContentLoaded', function() {
 function generate() {
 
   var qoutes = {
-      "- Ahmed khaled": '"My journey here has been transformative. From late-night study sessions to memorable class discussions, every moment has been a stepping stone towards my future. Thank you to all the professors who believed in me and pushed me to achieve my best."',
-      "- Nada Ibrahim": '"Looking back, I am filled with gratitude. The support from my professors and peers has been incredible. I am ready to take on the world, armed with the knowledge and experiences gained here."',
-      "- rana ali": '"Don`t Let Yesterday Take Up Too Much Of Today."',
+      "- Nada zeidan": '""',
+      "- Alaa nader": '"',
+      "- Nada Yehia": '""',
+      "-  Nadine Khafaji ": '""',
+      "-  Rewan Ali": '"',
+      "-  Salma Mahmoud": '"',
+
+
+
+
+
       
   }
 

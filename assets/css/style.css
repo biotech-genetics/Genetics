@@ -391,9 +391,17 @@ h6 {
   left: 15px;
   padding: 10px 0;
   background-color: #fff;
+  background: url("../chr\ navbar.jpeg")  ;
+  background-position: right bottom  ;
+  background-size: cover;
+  background-repeat: no-repeat;
   overflow-y: auto;
   transition: 0.3s;
+
 }
+ 
+
+
 
 .navbar-mobile a,
 .navbar-mobile a:focus {
@@ -548,6 +556,7 @@ h6 {
   font-weight: 600;
   display: flex;
   align-items: center;
+
 }
 
 #hero .btn-watch-video i {
@@ -2137,3 +2146,15 @@ mix-blend-mode: multiply;
     margin-top: 1rem;
     font-size: xx-large;
   }
+
+
+
+
+  .se1{
+
+    font-size: 26px !important;
+  }
+
+
+
+  
