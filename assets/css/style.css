@@ -2131,9 +2131,16 @@ mix-blend-mode: multiply;
 
   #portfolio-details p{
     text-align: justify;
+    box-sizing: border-box;
+
 
   }
-
+  @media (max-width: 600px) {
+    #portfolio-details p {
+      margin: 10px 0; /* example */
+      padding: 5px; /* example */
+    }
+  }
 
 
   #team a {
@@ -2158,3 +2165,47 @@ mix-blend-mode: multiply;
 
 
   
+  .container22 {
+    width: 100%; /* Adjust width as needed */
+    max-width: 600px; /* Maximum width for larger screens */
+    margin: 0 auto; /* Center the container */
+    padding: 20px;
+    text-align: center; /* Center content inside the container */
+  }
+  
+  /* Base link (button) styles */
+  .responsive-button {
+    display: inline-block;
+    width: auto; /* Default width */
+    padding: 15px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #106EEA;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .responsive-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+    color: whitesmoke;
+  }
+  
+  .responsive-button:active {
+    background-color: #003d80;
+    color: whitesmoke;
+
+    transform: scale(1);
+  }
+  
+  /* Responsive styles for mobile screens */
+  @media (max-width: 600px) {
+    .responsive-button {
+      display: block;
+      width: 100%; /* Full width on small screens */
+    }
+  }
