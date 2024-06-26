@@ -2030,7 +2030,7 @@ mix-blend-mode: multiply;
   padding: 15px 30px;
   font-size: 18px;
   color: #fff;
-  background-color: #007bff;
+  background-color: #007bff !;
   border: none;
   border-radius: 5px;
   text-decoration: none;
@@ -2075,9 +2075,10 @@ mix-blend-mode: multiply;
 }
 
 
-.btn-qoute,.btn-qoute:hover{
-  background-color: #035acd;
-  color: whitesmoke;
+.btn-qoute,.btn-qoute:hover,.btn-qoute:active{
+  background-color: #106EEA;
+  color: white;
+  font-weight: 600;
 }
 
 
